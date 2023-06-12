@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --primary-dark: #1e1b4b;
+    --primary-green: #10b981;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--primary-dark);
+    color: var(--primary-green);
+}
+
+.container {
+    max-width: 600px;
+    margin: 2em auto;
+    border: 2px solid var(--primary-green);
+    text-align: center;
+    border-radius: 10px;
+    padding: 2em;
+    box-shadow: 0 1em 1em rgba(0, 0, 0, .4);
+}
+
+label,
+input,
+button {
+    display: block;
+    margin: 1em auto;
+
+}
+
+label,
+input,
+button:hover {
+    cursor: pointer;
+}
+
+#output-div {
+    border: 2px solid var(--primary-green);
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+#date-of-birth {
+    width: 30%;
+    height: 4vh;
+}
+
+#lucky-number {
+    width: 30%;
+    height: 4vh;
+}
+
+#check-btn {
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: .5em;
+    width: 10%;
+
+
+}
+
+#check-btn:hover {
+    cursor: pointer;
+    background-color: var(--primary-green);
+}
