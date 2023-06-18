@@ -9,8 +9,9 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    background-color: var(--primary-dark);
+    background: linear-gradient(var(--primary-dark),rgb(77, 54, 194)); 
     color: var(--primary-green);
+    height: 100vh;
 }
 
 .container {
@@ -71,4 +72,37 @@ button:hover {
 #check-btn:hover {
     cursor: pointer;
     background-color: var(--primary-green);
+}
+
+.link{
+    text-decoration:none;
+    padding:1em;
+    color:white;
+    font-family: inherit;
+   
+    
+}
+
+
+
+.link:hover{
+    font-weight: bold;
+}
+
+.link-active{
+    font-weight:bolder;
+}
+
+.list-inline{
+    display:inline;
+    
+}
+
+footer ul{
+    padding-inline-start: 0px;
+    max-width: 600px;
+    text-align: center;
+    margin: 8em auto;
+       
+   
 }
