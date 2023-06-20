@@ -106,3 +106,26 @@ footer ul{
        
    
 }
+
+footer {
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.icons {
+    margin:.5em 1em;
+    font-size: small;
+    color:white;
+    transition:all 0.3s ;
+     
+}
+
+.icons i{
+    transition:all 0.3s linear;
+}
+.icons i:hover{
+    transform:scale(1.2);
+   
+}
