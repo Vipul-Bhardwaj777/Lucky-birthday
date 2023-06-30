@@ -7,7 +7,7 @@ const output = document.querySelector("#output-div");
 checkbtn.addEventListener("click", () => {
     const dob = dateOfBirth.value;
     const luckyno = luckyNo.value;
-    const sumdob = dobSum(dob, luckyno);
+    const sumdob = dobSum(dob);
 
     if (dob && luckyNo) {
 
@@ -21,7 +21,7 @@ checkbtn.addEventListener("click", () => {
 
 });
 
-function dobSum(dob, luckyno) {
+function dobSum(dob) {
     dob = dob.replaceAll("-", "");
     let sum = 0;
     for (let i = 0; i < dob.length; i++) {
